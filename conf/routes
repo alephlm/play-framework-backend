@@ -1,0 +1,9 @@
+GET     /                           controllers.CarroController.list
+
+POST    /carro                      controllers.CarroController.create
+
+GET     /carro                      controllers.CarroController.list
+
+PUT     /carro/:id                  controllers.CarroController.update(id)
+
+POST    /carro/delete               controllers.CarroController.delete
